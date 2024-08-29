@@ -21,8 +21,8 @@ public class CheckPrerollOpportunitiesForEachShowTest {
         CheckPrerollOpportunities();
     }
 
-    private void CheckPrerollOpportunities() {
-
+    private void CheckPrerollOpportunities()
+    {
         Map<String, Integer> expected = new HashMap<>();
         expected.put(StuffYouShouldKnow, 40);
         expected.put(WhoTrolledAmber, 40);
@@ -34,6 +34,5 @@ public class CheckPrerollOpportunitiesForEachShowTest {
 
         assertNotNull(processor.loadData(fileEntryName));
         assertEquals(expected, processor.prerollOpportunities(dataList));
-
     }
 }

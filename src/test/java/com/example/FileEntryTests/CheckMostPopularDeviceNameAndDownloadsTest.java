@@ -19,8 +19,8 @@ public class CheckMostPopularDeviceNameAndDownloadsTest {
         CheckMostPopularDevicesAndNumberOfDownloads();
     }
 
-    private void CheckMostPopularDevicesAndNumberOfDownloads() {
-
+    private void CheckMostPopularDevicesAndNumberOfDownloads()
+    {
         final String expectedNumberOfDownloads = "60";
 
         Map<String, String> expectedPopularDeviceAndNumberOfDownloads = new HashMap<>();

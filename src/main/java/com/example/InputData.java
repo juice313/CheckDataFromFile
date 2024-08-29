@@ -12,9 +12,6 @@ public class InputData {
     private String deviceType;
     private String city;
 
-    public InputData() {
-    }
-
     public DownloadIdentifier getDownloadIdentifier() {
         return downloadIdentifier;
     }

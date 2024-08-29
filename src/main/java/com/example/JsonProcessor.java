@@ -138,6 +138,4 @@ public class JsonProcessor {
 
         return weeklyShows;
     }
-
-
 }

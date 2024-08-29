@@ -17,13 +17,13 @@ import static org.junit.Assert.assertNotNull;
 public class CheckWeeklyShowsTest {
 
     @Test
-    public void CheckWeeklyShows(){
-
+    public void CheckWeeklyShows()
+    {
         CheckAndDisplayWeeklyShows();
     }
 
-    private void CheckAndDisplayWeeklyShows(){
-
+    private void CheckAndDisplayWeeklyShows()
+    {
         Map<String, String> expectedWeeklyShow = new HashMap<>();
         expectedWeeklyShow.put(CrimeJunkie, "Wed 22:00");
         expectedWeeklyShow.put(WhoTrolledAmber, "Mon 20:00");
@@ -33,6 +33,5 @@ public class CheckWeeklyShowsTest {
 
         assertNotNull(processor.loadData(fileEntryName));
         assertEquals(expectedWeeklyShow, processor.getWeeklyShows(dataList));
-
     }
 }

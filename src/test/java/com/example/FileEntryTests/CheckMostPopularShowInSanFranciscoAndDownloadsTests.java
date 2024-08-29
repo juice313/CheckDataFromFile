@@ -34,5 +34,4 @@ public class CheckMostPopularShowInSanFranciscoAndDownloadsTests {
         assertNotNull(processor.loadData(fileEntryName));
         assertEquals(expectedMostPopularShowAndNumberOfDownloads, processor.mostPopularShowInRegion(regionSanFrancisco, dataList));
     }
-
 }

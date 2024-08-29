@@ -23,6 +23,5 @@ public class App {
 
         System.out.println("\n4. Weekly shows are:");
         processor.getWeeklyShows(dataList);
-
     }
 }
