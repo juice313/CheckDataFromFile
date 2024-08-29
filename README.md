@@ -1,6 +1,5 @@
 # Daniel Martin
 
-<<<<<<< HEAD
 # Media Analytics Application
 
 ## Overview
