@@ -34,5 +34,6 @@ public class CheckPrerollOpportunitiesForEachShowTest {
 
         assertNotNull(processor.loadData(fileEntryName));
         assertEquals(expected, processor.prerollOpportunities(dataList));
+
     }
 }

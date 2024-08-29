@@ -33,5 +33,6 @@ public class CheckWeeklyShowsTest {
 
         assertNotNull(processor.loadData(fileEntryName));
         assertEquals(expectedWeeklyShow, processor.getWeeklyShows(dataList));
+
     }
 }
